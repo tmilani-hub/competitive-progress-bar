@@ -1,3 +1,91 @@
 * {
+	padding: 0%;
+	margin: 0%;
 	font-family: Poppins;
+	color: white;
+	font-weight: 700;
+}
+body {
+	background: radial-gradient(#310839 0%, #662573 100%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+section {
+	background: linear-gradient(#13124d 27.88%, #532f7f 100%);
+	border: solid 4px;
+	border-radius: 16px;
+	border-color: #946bbd;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 32px 16px;
+	gap: 10px;
+}
+section:hover {
+	box-shadow: 0px 0px 20px 0px;
+}
+.classement {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h1 {
+}
+p {
+	height: max-content;
+}
+.logo {
+	width: 60%;
+}
+h2 {
+	width: max-content;
+	background-color: #de9f29;
+	border-radius: 3px;
+	padding: 4px 8px;
+}
+.perso {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 50px;
+}
+.perso20 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+}
+.per {
+	width: 62px;
+	border: solid 5px;
+	border-color: #181342;
+	border-radius: 999999px;
+}
+.progress {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: stretch;
+}
+.bar {
+	background-color: #13124d;
+	border-radius: 9999px;
+	width: 300%;
+	padding: 6px;
+}
+.lol {
+	display: inline-block;
+	background-color: #ffffff;
+	color: white;
+	width: 52%;
+	height: 100%;
+	text-align: center;
+	border-radius: 9999px;
+}
+.cinq {
+	color: #14134d;
 }
